@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  // When menu items are clicked, open the appropriate content div
   $(".menu").click(function() {
     var content = $("#" + this.getAttribute('data-content'));
     var alreadyShown = content.css("display") == 'block';
